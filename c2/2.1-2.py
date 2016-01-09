@@ -6,7 +6,7 @@ Created on Sat Jan  9 11:41:26 2016
 """
 
 def insertion_sort_nonic(A):
-    # Sort list to a non-decreasing order
+    # Sort list to a non-increasing order
     for j in range(1,len(A)):
         key = A[j]
         #Insert A[j] into the sorted sequence A[0..j-1]
